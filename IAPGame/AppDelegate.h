@@ -3,7 +3,7 @@
 //  IAPGame
 //
 //  Created by Ricky on 11/5/12.
-//  Copyright meetgame 2012. All rights reserved.
+//  Copyright eseedo 2012. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

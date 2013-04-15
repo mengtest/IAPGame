@@ -138,6 +138,24 @@
 		9C84D9C61647B38200FBF79A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C84D9C51647B38200FBF79A /* AppDelegate.m */; };
 		9C84D9C91647B38200FBF79A /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C84D9C81647B38200FBF79A /* HelloWorldLayer.m */; };
 		9C84D9CC1647B38200FBF79A /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C84D9CB1647B38200FBF79A /* IntroLayer.m */; };
+		9C84D9E31647B57700FBF79A /* dragonclothes.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C84D9D71647B57700FBF79A /* dragonclothes.png */; };
+		9C84D9E41647B57700FBF79A /* dragonfan.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C84D9D81647B57700FBF79A /* dragonfan.png */; };
+		9C84D9E51647B57700FBF79A /* dragonhat.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C84D9D91647B57700FBF79A /* dragonhat.png */; };
+		9C84D9E61647B57700FBF79A /* dragonsword.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C84D9DA1647B57700FBF79A /* dragonsword.png */; };
+		9C84D9E71647B57700FBF79A /* dragonclothes-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C84D9DB1647B57700FBF79A /* dragonclothes-hd.png */; };
+		9C84D9E81647B57700FBF79A /* dragonfan-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C84D9DC1647B57700FBF79A /* dragonfan-hd.png */; };
+		9C84D9E91647B57700FBF79A /* dragonhat-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C84D9DD1647B57700FBF79A /* dragonhat-hd.png */; };
+		9C84D9EA1647B57700FBF79A /* dragonsword-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C84D9DE1647B57700FBF79A /* dragonsword-hd.png */; };
+		9C84D9EB1647B57700FBF79A /* bg_store.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C84D9DF1647B57700FBF79A /* bg_store.png */; };
+		9C84D9EC1647B57700FBF79A /* bg_store-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C84D9E01647B57700FBF79A /* bg_store-hd.png */; };
+		9C84D9ED1647B57700FBF79A /* dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C84D9E11647B57700FBF79A /* dragon.png */; };
+		9C84D9EE1647B57700FBF79A /* dragon-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C84D9E21647B57700FBF79A /* dragon-hd.png */; };
+		9C84D9F11647B59300FBF79A /* MyStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C84D9F01647B59300FBF79A /* MyStore.m */; };
+		9C84D9F41647B5A700FBF79A /* CurrentCoins.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C84D9F31647B5A700FBF79A /* CurrentCoins.m */; };
+		9C84D9F71647B5B500FBF79A /* DragonWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C84D9F61647B5B500FBF79A /* DragonWeapon.m */; };
+		9C84D9FA1647B5C200FBF79A /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C84D9F91647B5C200FBF79A /* GameData.m */; };
+		9C84D9FC1647B66A00FBF79A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C84D9FB1647B66A00FBF79A /* StoreKit.framework */; };
+		9C84D9FE1647B72900FBF79A /* dragon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C84D9FD1647B72900FBF79A /* dragon.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -413,6 +431,28 @@
 		9C84D9C81647B38200FBF79A /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		9C84D9CA1647B38200FBF79A /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		9C84D9CB1647B38200FBF79A /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		9C84D9D71647B57700FBF79A /* dragonclothes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragonclothes.png; sourceTree = "<group>"; };
+		9C84D9D81647B57700FBF79A /* dragonfan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragonfan.png; sourceTree = "<group>"; };
+		9C84D9D91647B57700FBF79A /* dragonhat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragonhat.png; sourceTree = "<group>"; };
+		9C84D9DA1647B57700FBF79A /* dragonsword.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragonsword.png; sourceTree = "<group>"; };
+		9C84D9DB1647B57700FBF79A /* dragonclothes-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dragonclothes-hd.png"; sourceTree = "<group>"; };
+		9C84D9DC1647B57700FBF79A /* dragonfan-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dragonfan-hd.png"; sourceTree = "<group>"; };
+		9C84D9DD1647B57700FBF79A /* dragonhat-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dragonhat-hd.png"; sourceTree = "<group>"; };
+		9C84D9DE1647B57700FBF79A /* dragonsword-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dragonsword-hd.png"; sourceTree = "<group>"; };
+		9C84D9DF1647B57700FBF79A /* bg_store.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_store.png; sourceTree = "<group>"; };
+		9C84D9E01647B57700FBF79A /* bg_store-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_store-hd.png"; sourceTree = "<group>"; };
+		9C84D9E11647B57700FBF79A /* dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragon.png; sourceTree = "<group>"; };
+		9C84D9E21647B57700FBF79A /* dragon-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dragon-hd.png"; sourceTree = "<group>"; };
+		9C84D9EF1647B59300FBF79A /* MyStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStore.h; sourceTree = "<group>"; };
+		9C84D9F01647B59300FBF79A /* MyStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStore.m; sourceTree = "<group>"; };
+		9C84D9F21647B5A700FBF79A /* CurrentCoins.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentCoins.h; sourceTree = "<group>"; };
+		9C84D9F31647B5A700FBF79A /* CurrentCoins.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentCoins.m; sourceTree = "<group>"; };
+		9C84D9F51647B5B500FBF79A /* DragonWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragonWeapon.h; sourceTree = "<group>"; };
+		9C84D9F61647B5B500FBF79A /* DragonWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragonWeapon.m; sourceTree = "<group>"; };
+		9C84D9F81647B5C200FBF79A /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameData.h; sourceTree = "<group>"; };
+		9C84D9F91647B5C200FBF79A /* GameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameData.m; sourceTree = "<group>"; };
+		9C84D9FB1647B66A00FBF79A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9C84D9FD1647B72900FBF79A /* dragon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dragon.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -420,6 +460,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C84D9FC1647B66A00FBF79A /* StoreKit.framework in Frameworks */,
 				9C84D82C1647B37200FBF79A /* QuartzCore.framework in Frameworks */,
 				9C84D82E1647B37300FBF79A /* OpenGLES.framework in Frameworks */,
 				9C84D8301647B37300FBF79A /* OpenAL.framework in Frameworks */,
@@ -438,6 +479,7 @@
 		9C84D81C1647B37200FBF79A = {
 			isa = PBXGroup;
 			children = (
+				9C84D9FB1647B66A00FBF79A /* StoreKit.framework */,
 				9C84D83D1647B37300FBF79A /* IAPGame */,
 				9C84D82A1647B37200FBF79A /* Frameworks */,
 				9C84D8281647B37200FBF79A /* Products */,
@@ -477,6 +519,14 @@
 				9C84D9C81647B38200FBF79A /* HelloWorldLayer.m */,
 				9C84D9CA1647B38200FBF79A /* IntroLayer.h */,
 				9C84D9CB1647B38200FBF79A /* IntroLayer.m */,
+				9C84D9EF1647B59300FBF79A /* MyStore.h */,
+				9C84D9F01647B59300FBF79A /* MyStore.m */,
+				9C84D9F21647B5A700FBF79A /* CurrentCoins.h */,
+				9C84D9F31647B5A700FBF79A /* CurrentCoins.m */,
+				9C84D9F51647B5B500FBF79A /* DragonWeapon.h */,
+				9C84D9F61647B5B500FBF79A /* DragonWeapon.m */,
+				9C84D9F81647B5C200FBF79A /* GameData.h */,
+				9C84D9F91647B5C200FBF79A /* GameData.m */,
 				9C84D83E1647B37300FBF79A /* Resources */,
 				9C84D85C1647B37300FBF79A /* libs */,
 				9C84D9C01647B38200FBF79A /* Supporting Files */,
@@ -487,6 +537,8 @@
 		9C84D83E1647B37300FBF79A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9C8783C51647B97000D90973 /* music */,
+				9C84D9D61647B56800FBF79A /* arts */,
 				9C84D83F1647B37300FBF79A /* Default.png */,
 				9C84D8411647B37300FBF79A /* Default@2x.png */,
 				9C84D8431647B37300FBF79A /* Default-568h@2x.png */,
@@ -857,6 +909,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9C84D9D61647B56800FBF79A /* arts */ = {
+			isa = PBXGroup;
+			children = (
+				9C84D9D71647B57700FBF79A /* dragonclothes.png */,
+				9C84D9D81647B57700FBF79A /* dragonfan.png */,
+				9C84D9D91647B57700FBF79A /* dragonhat.png */,
+				9C84D9DA1647B57700FBF79A /* dragonsword.png */,
+				9C84D9DB1647B57700FBF79A /* dragonclothes-hd.png */,
+				9C84D9DC1647B57700FBF79A /* dragonfan-hd.png */,
+				9C84D9DD1647B57700FBF79A /* dragonhat-hd.png */,
+				9C84D9DE1647B57700FBF79A /* dragonsword-hd.png */,
+				9C84D9DF1647B57700FBF79A /* bg_store.png */,
+				9C84D9E01647B57700FBF79A /* bg_store-hd.png */,
+				9C84D9E11647B57700FBF79A /* dragon.png */,
+				9C84D9E21647B57700FBF79A /* dragon-hd.png */,
+			);
+			name = arts;
+			sourceTree = "<group>";
+		};
+		9C8783C51647B97000D90973 /* music */ = {
+			isa = PBXGroup;
+			children = (
+				9C84D9FD1647B72900FBF79A /* dragon.mp3 */,
+			);
+			name = music;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -883,7 +962,7 @@
 		9C84D81E1647B37200FBF79A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0450;
+				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = meetgame;
 			};
 			buildConfigurationList = 9C84D8211647B37200FBF79A /* Build configuration list for PBXProject "IAPGame" */;
@@ -923,6 +1002,19 @@
 				9C84D8581647B37300FBF79A /* Icon@2x.png in Resources */,
 				9C84D85B1647B37300FBF79A /* iTunesArtwork in Resources */,
 				9C84D9A41647B38100FBF79A /* ChangeLog in Resources */,
+				9C84D9E31647B57700FBF79A /* dragonclothes.png in Resources */,
+				9C84D9E41647B57700FBF79A /* dragonfan.png in Resources */,
+				9C84D9E51647B57700FBF79A /* dragonhat.png in Resources */,
+				9C84D9E61647B57700FBF79A /* dragonsword.png in Resources */,
+				9C84D9E71647B57700FBF79A /* dragonclothes-hd.png in Resources */,
+				9C84D9E81647B57700FBF79A /* dragonfan-hd.png in Resources */,
+				9C84D9E91647B57700FBF79A /* dragonhat-hd.png in Resources */,
+				9C84D9EA1647B57700FBF79A /* dragonsword-hd.png in Resources */,
+				9C84D9EB1647B57700FBF79A /* bg_store.png in Resources */,
+				9C84D9EC1647B57700FBF79A /* bg_store-hd.png in Resources */,
+				9C84D9ED1647B57700FBF79A /* dragon.png in Resources */,
+				9C84D9EE1647B57700FBF79A /* dragon-hd.png in Resources */,
+				9C84D9FE1647B72900FBF79A /* dragon.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1040,6 +1132,10 @@
 				9C84D9C61647B38200FBF79A /* AppDelegate.m in Sources */,
 				9C84D9C91647B38200FBF79A /* HelloWorldLayer.m in Sources */,
 				9C84D9CC1647B38200FBF79A /* IntroLayer.m in Sources */,
+				9C84D9F11647B59300FBF79A /* MyStore.m in Sources */,
+				9C84D9F41647B5A700FBF79A /* CurrentCoins.m in Sources */,
+				9C84D9F71647B5B500FBF79A /* DragonWeapon.m in Sources */,
+				9C84D9FA1647B5C200FBF79A /* GameData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1050,6 +1146,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -1060,6 +1160,7 @@
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
@@ -1071,6 +1172,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -1079,6 +1184,7 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				SDKROOT = iphoneos;
@@ -1096,6 +1202,7 @@
 				GCC_PREFIX_HEADER = IAPGame/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"IAPGame/libs/kazmath/include\"";
 				INFOPLIST_FILE = IAPGame/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
@@ -1114,6 +1221,7 @@
 				GCC_PREFIX_HEADER = IAPGame/Prefix.pch;
 				HEADER_SEARCH_PATHS = "\"IAPGame/libs/kazmath/include\"";
 				INFOPLIST_FILE = IAPGame/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-ObjC",
@@ -1143,6 +1251,7 @@
 				9C84D9D11647B38200FBF79A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

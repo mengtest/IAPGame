@@ -3,7 +3,7 @@
 //  IAPGame
 //
 //  Created by Ricky on 11/5/12.
-//  Copyright meetgame 2012. All rights reserved.
+//  Copyright eseedo 2012. All rights reserved.
 //
 
 
@@ -12,6 +12,11 @@
 
 // Needed to obtain the Navigation Controller
 #import "AppDelegate.h"
+
+#import "MyStore.h"
+#import "CurrentCoins.h"
+#import "SimpleAudioEngine.h"
+#import "DragonWeapon.h"
 
 #pragma mark - HelloWorldLayer
 
@@ -34,72 +39,94 @@
 	return scene;
 }
 
+#pragma mark 游戏界面相关
+
+-(void)addBg{
+    
+    CGSize size = [CCDirector sharedDirector].winSize;
+    
+    CCSprite *bg = [CCSprite spriteWithFile:@"dragon.png"];
+    bg.position =ccp(size.width/2,size.height/2);
+    
+    [self addChild:bg z:-1];
+    
+}
+
+-(void)addButton{
+    
+    CGSize size = [CCDirector sharedDirector].winSize;
+    
+    [CCMenuItemFont setFontSize:25];
+    
+    CCMenuItemFont *item1 = [CCMenuItemFont itemWithString:@"进入商城" target:self selector:@selector(enterMyStore)];
+    
+    
+    
+    CCMenuItemFont *item2 = [CCMenuItemFont itemWithString:@"查看天龙币余额" target:self selector:@selector(checkCurrentCoins)];
+    
+    
+    CCMenuItemFont *item3 =[CCMenuItemFont itemWithString:@"购买天龙装备" target:self selector:@selector(buyDragonWeapons)];
+    
+    CCMenu *menu = [CCMenu menuWithItems:item1,item2, item3,nil];
+    
+    menu.position = ccp(size.width/2,size.height*0.25);
+    [menu alignItemsVerticallyWithPadding:15.0];
+    
+    [self addChild:menu];
+    
+}
+
+
+
+-(void)enterMyStore{
+    
+    CCTransitionFade *transition = [CCTransitionFade transitionWithDuration:2.0f scene:[MyStore scene]];
+    [[CCDirector sharedDirector]pushScene:transition];
+    
+}
+
+-(void)checkCurrentCoins{
+    
+    CCTransitionFade *transition = [CCTransitionFade transitionWithDuration:2.0f scene:[CurrentCoins scene]];
+    [[CCDirector sharedDirector]pushScene:transition];
+    
+    
+}
+
+-(void)buyDragonWeapons{
+    
+    CCTransitionFade *transition = [CCTransitionFade transitionWithDuration:2.0f scene:[DragonWeapon scene]];
+    [[CCDirector sharedDirector]pushScene:transition];
+    
+}
+
+-(void)playBgMusic{
+    
+    [[SimpleAudioEngine sharedEngine]playBackgroundMusic:@"dragon.mp3" loop:YES];
+}
+
+
+
+#pragma mark 游戏初始化方法
+
 // on "init" you need to initialize your instance
 -(id) init
 {
 	// always call "super" init
 	// Apple recommends to re-assign "self" with the "super's" return value
 	if( (self=[super init]) ) {
-		
-		// create and initialize a Label
-		CCLabelTTF *label = [CCLabelTTF labelWithString:@"Hello World" fontName:@"Marker Felt" fontSize:64];
-
-		// ask director for the window size
-		CGSize size = [[CCDirector sharedDirector] winSize];
-	
-		// position the label on the center of the screen
-		label.position =  ccp( size.width /2 , size.height/2 );
-		
-		// add the label as a child to this Layer
-		[self addChild: label];
-		
-		
-		
-		//
-		// Leaderboards and Achievements
-		//
-		
-		// Default font size will be 28 points.
-		[CCMenuItemFont setFontSize:28];
-		
-		// Achievement Menu Item using blocks
-		CCMenuItem *itemAchievement = [CCMenuItemFont itemWithString:@"Achievements" block:^(id sender) {
-			
-			
-			GKAchievementViewController *achivementViewController = [[GKAchievementViewController alloc] init];
-			achivementViewController.achievementDelegate = self;
-			
-			AppController *app = (AppController*) [[UIApplication sharedApplication] delegate];
-			
-			[[app navController] presentModalViewController:achivementViewController animated:YES];
-			
-			[achivementViewController release];
-		}
-									   ];
-
-		// Leaderboard Menu Item using blocks
-		CCMenuItem *itemLeaderboard = [CCMenuItemFont itemWithString:@"Leaderboard" block:^(id sender) {
-			
-			
-			GKLeaderboardViewController *leaderboardViewController = [[GKLeaderboardViewController alloc] init];
-			leaderboardViewController.leaderboardDelegate = self;
-			
-			AppController *app = (AppController*) [[UIApplication sharedApplication] delegate];
-			
-			[[app navController] presentModalViewController:leaderboardViewController animated:YES];
-			
-			[leaderboardViewController release];
-		}
-									   ];
-		
-		CCMenu *menu = [CCMenu menuWithItems:itemAchievement, itemLeaderboard, nil];
-		
-		[menu alignItemsHorizontallyWithPadding:20];
-		[menu setPosition:ccp( size.width/2, size.height/2 - 50)];
-		
-		// Add the menu to the layer
-		[self addChild:menu];
-
+        
+		//添加背景图片
+        [self addBg];
+        
+        //添加按钮
+        [self addButton];
+        
+        //播放背景音乐
+        [self playBgMusic];
+        
+        
+        
 	}
 	return self;
 }
